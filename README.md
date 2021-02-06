@@ -1,2 +1,4 @@
 # JS
- códigos feitos durante cursos de JS
+ códigos feitos durante curso de JS
+
+ 
