@@ -29,6 +29,6 @@ console.log(ag, num)
 console.log(pessoa)
 
 /* o operador destructuring ainda mantém os valores no objeto do qual
-eles foram "retirados".
+eles foram "retirados".*/
 
 
