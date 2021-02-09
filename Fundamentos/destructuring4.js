@@ -1,0 +1,13 @@
+function rand([min = 0, max = 1000]) {
+    if (min > max) [min, max] = [max, min]
+    const valor = Math.random() * (max - min) + min
+    return Math.floor(valor) // arredondando para baixo #floor
+    // se fosse arredondar para cima #seil 
+}
+
+console.log(rand([50, 40]))
+console.log(rand([992]))
+console.log(rand([, 10]))
+console.log(rand([]))
+// console.log(rand()) // você não pode desestruturar nada de algo undefined
+
